@@ -1,0 +1,41 @@
+*{
+    box-sizing: boarder-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1,6;
+    background-color: rgb(108, 221, 155);
+    color: rgb(8, 12, 255);
+}
+header {
+    background-color: rgb(0, 183, 255);
+    color: burlywood;
+    padding: 30px 0;
+    text-align: center;
+}
+header img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    margin: 15px;
+}
+a {
+    font-size: 2.5em;
+    text-decoration: none;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em; 
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
